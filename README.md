@@ -1,6 +1,5 @@
 # **CSV2TNT**
 
-
 <div align="center">
 <img src="https://github.com/baileymarkweiss/CSV2TNT/blob/main/CSV2TNT_Logo.png?raw=true" alt="CSV2TNT logo">
 </div>
@@ -12,18 +11,28 @@ This allows for seemless phylogenetic analysis.
 
 It also converts a list of statements into a docx file.
 
-## Author
-Bailey M. Weiss
+## TNT links
+**TNT, a free program for phylogenetic analysis**  
+Pablo A. Goloboff, James S. Farris, Kevin C. Nixon  
+https://doi.org/10.1111/j.1096-0031.2008.00217.x
 
+**TNT version 1.6, with a graphical interface for MacOS and Linux, including new routines in parallel**  
+Pablo A. Goloboff, Martín E. Morales  
+https://doi.org/10.1111/cla.12524
+
+## Author
+Bailey M. Weiss  
 baileymarkweiss@gmail.com
 
 ## Installation
 ### Installing Python
-Install the latest version of [Python](https://www.python.org/downloads).
+Install the latest version of [**Python**](https://www.python.org/downloads).
+It is advantageous to install Python to the Path.
 
-### **CSV2TNT** code
+### CSV2TNT code
 The **CSV2TNT** code can either be run from a code editor or command line, or by running the batch file (windows only).
-If running from a the command line or a code editor first run load the required packages:
+After extracting keep all the files within the same folder.
+If running from a the command line or a code editor first load the required packages:
 
 ```
 pip install -r requirements.txt
@@ -87,14 +96,45 @@ The program requires these two columns (they do not need to be named anything sp
 |**9**|8|Osteoderms|7|Osteoderms, dorsal keel|absent|present||Ordered|Osteoderms, dorsal keel: 0)absent; 1)present. Ordered.|
 
 This example shows how concatination can help build statements Google Sheets.
+The actual sheet can have as many columns as needed.
 The Element Number column makes ordering the data set easier based on the elements.
 When the program asks for the Element and statment column it will give a list of numbers and column headings, input the name you have given to the element column and the statements column.
 In this example the statements column (**K**) is called Reorganised.
 
 ## Running the code
+The downloaded code has four files:
+1. CSV2TNT.py
+2. CSV2TNTFunctions.py
+3. CSV2TNT.bat
+4. requirements.txt
+
+**CSV2TNT.py** is the main file and the file that needs to be ran.
+This file mostly handles where to save the file, and asking the user what they want to compile.
+**CSV2TNTFunctions.py** contains all of the functions of the program.
+This file contains the main logic of the program.
+**CSV2TNT.bat** runs the program without needing to open the code.
+This file is only usable for Windows users.
+**requirements.txt** contains a list of the thirdparty Python packages required to run the program.
+the .bat file runs this automatically each time the program is ran.
+
+The first thing the program does when running is ask where to make the MatrixExport folder.
+If you choose a directory that already has a folder by that name, it will use that folder.
+It will first look for a **InfoFile.txt** file, the first time you run the program in the location one will not exhist.
+If the Info File exhists the program will read the contents.
+This file contains the last Google Sheet downloaded to this location, allowing it to be used again without needing to retype the information.
+
+If a file is not found the program will ask you if you want to compile statements and then if you would like to compile characters.
+It will then ask for a name of the file, this will be appended with the date, allowing for a version history to be created.
+Next it will ask for the Google Sheet Key followed by the GID of the statements and/or characters sheets.
+
+If it ran correctly you should be left with an Info File, TNT file, characters CSV file, and statements word file (if you compiled characters and statements).
+
+The TNT file can be opened in TNT and ananlysis can start.
 
 ## How to cite
 See the citation.cff file
+
+Weiss, B. M. (2025). CSV2TNT (Version 1.0.0) [Computer software]. https://github.com/baileymarkweiss/CSV2TNT
 
 ## License
 See LICENSE.file
