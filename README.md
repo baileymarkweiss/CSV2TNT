@@ -83,6 +83,8 @@ The program is considerably more leniant with the statments sheet layout.
 The layout can be any way you would like, however the program makes two assumptions: 1. the statements are in the order you want them written in the Word document, and 2. the statments are grouped by element.
 The program requires these two columns (they do not need to be named anything specific). However, you can have as many columns as you would like.
 
+Here is an example of a phylogenetic statements sheet:
+
 ||A|B|C|D|E|F|G|J|K|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**1**|**Number**|**Element**|**Element Number**|**Statement**|**0**|**1**|**2**|**Ordered**|**Reorginised**|
