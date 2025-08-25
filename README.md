@@ -30,7 +30,7 @@ Install the latest version of [**Python**](https://www.python.org/downloads).
 It is advantageous to install Python to the Path.
 
 ### CSV2TNT code
-The **CSV2TNT** code can either be run from a code editor or command line, or by running the batch file (windows only).
+The **CSV2TNT** code can either be run from a code editor or command line, or by running the batch file (Windows only).
 After extracting keep all the files within the same folder.
 If running from a the command line or a code editor first load the required packages:
 
@@ -51,8 +51,8 @@ An example URL is the following:
 
 The first part (`https://docs.google.com/spreadsheets/d/`) can be ignored.
 The second is the Google Sheet Key (`1Ki6YblUFY42ZguFl--mTQurpSHtQ80hGYR0O54jRUeo`), this is what should be pasted into the program when asked for the Google Sheet Key.
-The sheet GID changes depending on what sheet is currently open in.
-In this example when asked input `1363816066` as the GID.
+The sheet GID changes depending on what sheet is currently open.
+In this example when asked input: `1363816066` as the GID.
 
 ### Layout of phylogenetic matrix
 This is the basic setup of a matrix table in Google Sheets that **CSV2TNT** can read:
