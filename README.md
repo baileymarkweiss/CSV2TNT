@@ -1,7 +1,7 @@
 # CSV2TNT
 
 
-<img src="https://raw.githubusercontent.com/baileymarkweiss/CSV2TNT/afd7679b973fccf5b3588713bec3703dcd4f732f/CSV2TNT_Logo.png?token=GHSAT0AAAAAADJ3NIZIUNEWY7YSRDWCN3SU2FMLEMA" alt="CSV2TNT logo">
+<img src="https://raw.githubusercontent.com/baileymarkweiss/CSV2TNT/refs/heads/main/CSV2TNT_Logo.png?token=GHSAT0AAAAAADJ3NIZJUKYHMGLW5I7CJINE2FMLUQA" alt="CSV2TNT logo">
 
 This is the repository for the CSV2TNT package.
 
