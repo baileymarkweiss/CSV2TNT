@@ -72,17 +72,17 @@ The program is considerably more leniant with the statments sheet layout.
 The layout can be any way you would like, however the program makes two assumptions: 1. the statements are in the order you want them written in the Word document, and 2. the statments are grouped by element.
 The program requires these two columns (they do not need to be named anything specific). However, you can have as many columns as you would like.
 
-||A|B|C|D|E|F|G|H|I|J|K|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**1**|**Number**|**Element**|**Element Number**|**Statement**|**0**|**1**|**2**|**3**|**Original Source**|**Ordered**|**Reorginised**|
-|**2**|1|Premaxilla|1|Premaxilla, dorsal process|absent|present|||Apple, 2023||Premaxilla, dorsal process: 0)absent; 1)present.|
-|**3**|2|Maxilla|2|Maxilla, lateral flange|absent|narrow|broad||Doe, 1967|Ordered|Maxilla, lateral flange: 0)absent; 1)narrow; 2)broad. Ordered.|
-|**4**|3|Maxilla|2|Maxilla, accessory foramen|absent|small|moderate|large|Long, 2015||Maxilla, accessory foramen: 0)absent; 1)small; 2)moderate; 3)large.|
-|**5**|4|Frontal|3|Frontal, midline crest|absent|low|moderate|high|Doe, 1967||Frontal, midline crest: 0)absent; 1)low; 2)moderate; 3)high.|
-|**6**|5|Nasal|4|Nasal, lateral ridge|absent|present|||Long, 2015|Ordered|Nasal, lateral ridge: 0)absent; 1)present. Ordered.|
-|**7**|6|Femur|5|Femur, fourth trochanter|absent|small|moderate||Long, 2015|Ordered|Femur, fourth trochanter: 0)absent; 1)small; 2)moderate. Ordered.|
-|**8**|7|Tibia|6|Tibia, cnemial crest|absent|low|moderate|high|Apple, 2023||Tibia, cnemial crest: 0)absent; 1)low; 2)moderate; 3)high.|
-|**9**|8|Osteoderms|7|Osteoderms, dorsal keel|absent|present|||Long, 2015|Ordered|Osteoderms, dorsal keel: 0)absent; 1)present. Ordered.|
+||A|B|C|D|E|F|G|J|K|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|**1**|**Number**|**Element**|**Element Number**|**Statement**|**0**|**1**|**2**|**Ordered**|**Reorginised**|
+|**2**|1|Premaxilla|1|Premaxilla, dorsal process|absent|present|||Premaxilla, dorsal process: 0)absent; 1)present.|
+|**3**|2|Maxilla|2|Maxilla, lateral flange|absent|narrow|broad|Ordered|Maxilla, lateral flange: 0)absent; 1)narrow; 2)broad. Ordered.|
+|**4**|3|Maxilla|2|Maxilla, accessory foramen|absent|small|moderate||Maxilla, accessory foramen: 0)absent; 1)small; 2)moderate.|
+|**5**|4|Frontal|3|Frontal, midline crest|absent|low|moderate||Frontal, midline crest: 0)absent; 1)low; 2)moderate.|
+|**6**|5|Nasal|4|Nasal, lateral ridge|absent|present||Ordered|Nasal, lateral ridge: 0)absent; 1)present. Ordered.|
+|**7**|6|Femur|5|Femur, fourth trochanter|absent|small|moderate|Ordered|Femur, fourth trochanter: 0)absent; 1)small; 2)moderate. Ordered.|
+|**8**|7|Tibia|6|Tibia, cnemial crest|absent|low|moderate||Tibia, cnemial crest: 0)absent; 1)low; 2)moderate.|
+|**9**|8|Osteoderms|7|Osteoderms, dorsal keel|absent|present||Ordered|Osteoderms, dorsal keel: 0)absent; 1)present. Ordered.|
 
 This example shows how concatination can help build statements Google Sheets.
 The Element Number column makes ordering the data set easier based on the elements.
