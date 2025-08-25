@@ -54,6 +54,8 @@ The second is the Google Sheet Key (`1Ki6YblUFY42ZguFl--mTQurpSHtQ80hGYR0O54jRUe
 The sheet GID changes depending on what sheet is currently open.
 In this example when asked input: `1363816066` as the GID.
 
+Finally, ensure the entire Google Sheet is shared as "**Anyone with the link can edit**" so that it is downloadable by Python.
+
 ### Layout of phylogenetic matrix
 This is the basic setup of a matrix table in Google Sheets that **CSV2TNT** can read:
 ||A|B|C|D|E|F|
@@ -118,6 +120,8 @@ This file contains the main logic of the program.
 This file is only usable for Windows users.
 **requirements.txt** contains a list of the thirdparty Python packages required to run the program.
 the .bat file runs this automatically each time the program is ran.
+
+Make sure the Google Sheet is shared as "**Anyone with the link can edit**".
 
 The first thing the program does when running is ask where to make the MatrixExport folder.
 If you choose a directory that already has a folder by that name, it will use that folder.
