@@ -97,7 +97,7 @@ Here is an example of a phylogenetic statements sheet:
 |**8**|7|Tibia|6|Tibia, cnemial crest|absent|low|moderate||Tibia, cnemial crest: 0)absent; 1)low; 2)moderate.|
 |**9**|8|Osteoderms|7|Osteoderms, dorsal keel|absent|present||Ordered|Osteoderms, dorsal keel: 0)absent; 1)present. Ordered.|
 
-This example shows how concatination can help build statements Google Sheets.
+This example shows how concatination can help build statements in Google Sheets.
 The actual sheet can have as many columns as needed.
 The Element Number column makes ordering the data set easier based on the elements.
 When the program asks for the Element and statment column it will give a list of numbers and column headings, input the name you have given to the element column and the statements column.
