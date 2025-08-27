@@ -38,7 +38,7 @@ If running from a the command line or a code editor first load the required pack
 pip install -r requirements.txt
 ```
 
-If running from the batch file, this is automaticlly excuted when the batch file is opened and the code should run.
+If running from the batch file, this is automaticlly executed when the batch file is opened and the code should run.
 
 ## Google Sheet layout
 Google Sheets uses a standard URL to identify a document and a sheet within said document.
