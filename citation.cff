@@ -6,6 +6,6 @@ authors:
   orcid: "https://orcid.org/0000-0002-5418-8470"
 title: "CSV2TNT"
 version: 1.0.0
-doi: doi.org/10.5281/zenodo.16945209
+doi: 10.5281/zenodo.16945209
 date-released: 2025-08-25
 url: "https://github.com/baileymarkweiss/CSV2TNT"
